@@ -12,7 +12,7 @@
 
 O Comerciante irá vender água diretamente aos Consumidores ou através de Revendedores.
 
-Atividades:
+Algumas atividades:
 
 - Criar loja on-line venda da água.
 - Criar Pontos de Abastecimento de água.
@@ -21,11 +21,15 @@ Atividades:
 - Fazer marketing do negócio.
 - Verificar viabilidade/rentabilidade do negócio.
 
+### Cliente
+
+Do ponto de vista do zágua, os Consumidores são seus Clientes.
+
 ## Revendedor
 
 O Revendedor vende e entrega água para seus clientes.
 
-Atividades:
+Algumas atividades:
 
 - Gerencia os pedidos de compras de sua lista de Consumidores
 - Compra água on-line através da loja do Comerciante
@@ -38,7 +42,7 @@ Atividades:
 
 São os indivíduos que compram água para suas residências ou estabelecimentos.
 
-Atividades:
+Algumas atividades:
 
 - Consulta os Revendedores
 - Solicita pedidos aos Revendedores
@@ -50,6 +54,6 @@ Atividades:
 
 Os Fornecedores são os indivíduos que fornecem água aos Comerciantes, possuem caminhão para transportar a água.
 
-Atividades:
+Algumas atividades:
 
 - Cadastram-se no site, informando sua área de atuação.
