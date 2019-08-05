@@ -16,8 +16,8 @@ Todos os dados da loja são públicos.
 Cenário de Fundo:
   Dado um comerciante chamando "Joerbson"
   E sua loja:
-  |Nome       |Subdomínio|Telefone    |
-  |Dois irmãos|2irmaos   |8398888-8889|
+  |Nome    |Subdomínio|Telefone    |
+  |Puro H2O|puroh2o   |8398888-8889|
 
 Regra: A loja fica acessível publicamente através do subdomain
 
@@ -40,7 +40,7 @@ Exemplo: Dono de loja atualizando dados da loja
   Dado o dono da loja está logado
   Quando editar a loja:
   |Nome       |Subdomínio|Telefone    |
-  |Três irmãos|3irmaos   |8398888-8889|
+  |Dois irmãos|2irmaos   |8398888-8889|
   E acessar a página pública da loja
   Então as informações atualizadas da loja estão sendo exibidas
 
