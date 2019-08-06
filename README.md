@@ -16,6 +16,7 @@ Algumas atividades:
 
 - [Manter loja on-line venda da água](features/comerciante/loja.feature)
 - [Criar Pontos de Abastecimento de água](features/comerciante/ponto_de_abastecimento.feature)
+- Vende crédito [presencialmente](features/comerciante/credito_venda_trasacao_presencial.feature) ou [por transação bancária](features/comerciante/credito_venda_trasacao_bancaria.feature)
 - Manter o abastecimento de água
 - Manter infraestrutura para vender água
 - Fazer marketing do negócio
@@ -45,7 +46,8 @@ Algumas atividades:
 - ~~Compra água on-line através da loja do Comerciante~~
 - [Consulta os locais dos Pontos de Abastecimento](features/comerciante/ponto_de_abastecimento.feature)
 - [Retira água diretamente nos Pontos de Abastecimento](features/comerciante/autoservico.feature)
-- [Compra crédito através de transferência bancária](features/comerciante/credito_venda_trasacao_presencial.feature)
+- [Compra crédito através de transferência bancária](features/comerciante/credito_venda_trasacao_bancaria.feature)
+- [Compra crédito presencialmente](features/comerciante/credito_venda_trasacao_presencial.feature)
 
 ## Fornecedor
 
