@@ -21,9 +21,9 @@ Algumas atividades:
 - Fazer marketing do negócio
 - Verificar viabilidade/rentabilidade do negócio
 
-## ~~Revendedor~~
+## Revendedor
 
-~~O Revendedor vende e entrega água para seus clientes~~.
+O Revendedor vende e entrega água para seus clientes.
 
 Algumas atividades:
 
@@ -49,7 +49,7 @@ Algumas atividades:
 
 ## Fornecedor
 
-~~Os Fornecedores são os indivíduos que fornecem água aos Comerciantes, possuem caminhão para transportar a água~~.
+Os Fornecedores são os indivíduos que fornecem água aos Comerciantes, possuem caminhão para transportar a água.
 
 Algumas atividades:
 
