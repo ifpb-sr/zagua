@@ -2,7 +2,7 @@
 Funcionalidade: Cadastro de usuário
 
 Para que eu possa acessar o sistema
-Como um Consumidor
+Como um Usuário (Consumidor/Representante/Comerciante)
 Eu quero poder me registrar no sistema
 
 Fundo:
@@ -35,7 +35,7 @@ Regra: O nome, telefone e senha são obrigatórios no cadastro
 
 Regra: O login pode ser feito através do e-mail ou telefone (de formas diferentes)
 
-  Esquema do Cenário: fazendo login
+  Esquema do Cenário: fazendo login com e-mail ou telefone
     Quando tentar logar com <login> e <senha>
     Então consegue logar com sucesso
 
@@ -48,8 +48,8 @@ Regra: O login pode ser feito através do e-mail ou telefone (de formas diferent
 
 Regra: Não pode haver dois usuários com o mesmo e-mail ou telefone
 
-Esquema do Cenário: fazendo login
-  Quando tentar logar com <Nome>,<Email>,<Telefone> e <Senha>
+Esquema do Cenário: novo cadastro com identificação de usuário previamente cadastrado
+  Quando tentar cadastrar novo usuário com <Nome>,<Email>,<Telefone> e <Senha>
   Então verá erro indicando que <Campo> já está cadastrado a outro usuário
 
   Exemplos:
@@ -65,14 +65,6 @@ Exemplo: usuário editando suas informações de perfil
   |Nome  |Telefone     |E-mail             |
   |Ana   |(83)999990000|anamaria2@gmail.com|
   E visualizar sua página de perfil
-  Então as normas informações serão exibidas
-
-Exemplo: usuário editando suas informações de endereço
-  Dado usuária está logada
-  Quando atualizar suas informações de endereço:
-  |Cidade         |Estado|Endereço                 |Ponto de Referência          |
-  |Junco do Seridó|PB    |R. Ver. Elías Coelho, 157|Próximo a Pizzaria Sabor Real|
-  E visualizar sua página de perfil
-  Então as normas informações serão exibidas
+  Então as novas informações serão exibidas
 
 #Exemplo: perfil não pode ser editado por outro usuário

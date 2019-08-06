@@ -57,3 +57,7 @@ Os Fornecedores são os indivíduos que fornecem água aos Comerciantes, possuem
 Algumas atividades:
 
 - Cadastram-se no site, informando sua área de atuação.
+
+## Suporte
+
+O Suporte é a equipe que fornece suporte ao Comerciante. Para agilizar a experimentação da solução alguns requisitos são implementados pelo suporte, quem realizam as alterações no Banco de Dados diretamente.

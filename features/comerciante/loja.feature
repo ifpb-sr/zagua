@@ -8,31 +8,19 @@ Eu quero ter uma loja virtual para venda de água
 Como estamos em fase de testes, as lojas serão criadas unicamente
 através da equipe de suporte, alterando o banco de dados diretamente.
 
-No entanto, queremos registrar as pessoas que estão interessadas
-em adquirir o equipamento através do preenchimento de formulário.
-
-Todos os dados da loja são públicos.
-
 Cenário de Fundo:
   Dado um comerciante chamando "Joerbson"
   E sua loja:
   |Nome    |Subdomínio|Telefone    |
   |Puro H2O|puroh2o   |8398888-8889|
 
+Regra: Atualmente as lojas serão criadas pela equipe de Suporte
+
 Regra: A loja fica acessível publicamente através do subdomain
 
   Cenário: Usuário não logando acessando loja
     Quando acessar a página da loja através do seu subdomínio
     Então os dados públicos da loja estarão acessíveis
-
-Regra: Lojas não são criadas, mas recebemos solicitações de criação
-
-  Exemplo: Possível cliente deseja criar loja virtual
-    Dado um possível cliente que deseja criar uma loja
-    Quando preencher e enviar formulário para abertura de loja:
-    |Nome   |Telefone     |E-mail           |
-    |Lohana |8399999-9999 |lohana@gmail.com |
-    Então verá uma mensagem informando que ainda estamos em fase de testes
 
 Regra: Somente o dono da loja pode atualizar sua loja
 
