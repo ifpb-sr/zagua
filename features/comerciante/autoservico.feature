@@ -1,4 +1,4 @@
-# – FILE: features/comerciante/loja.feature # language: pt
+# – FILE: features/comerciante/autoservico.feature # language: pt
 Funcionalidade: Autoserviço nos pontos de abastecimento
 
 Para que meus consumidores possam se servirem de água sem minha intervenção

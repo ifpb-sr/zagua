@@ -1,4 +1,4 @@
-# – FILE: features/comerciante/loja.feature # language: pt
+# – FILE: features/comerciante/ponto_de_abastecimento.feature # language: pt
 Funcionalidade: Cadastro de pontos de abastecimento
 
 Para que meus consumidores possam saber o preço da água e aonde retirar água

@@ -1,4 +1,4 @@
-# – FILE: features/comerciante/loja.feature # language: pt
+# – FILE: features/stakeholder/loja_interessados.feature # language: pt
 Funcionalidade: Saber quem tem interesse em abrir uma loja
 
 Para que eu possa vender o equipamento do zágua

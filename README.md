@@ -14,12 +14,12 @@ O Comerciante irá vender água diretamente aos Consumidores ou através de Reve
 
 Algumas atividades:
 
-- Criar loja on-line venda da água.
-- Criar Pontos de Abastecimento de água.
-- Manter o abastecimento de água.
-- Manter infraestrutura para vender água.
-- Fazer marketing do negócio.
-- Verificar viabilidade/rentabilidade do negócio.
+- [Manter loja on-line venda da água](features/comerciante/loja.feature)
+- [Criar Pontos de Abastecimento de água](features/comerciante/ponto_de_abastecimento.feature)
+- Manter o abastecimento de água
+- Manter infraestrutura para vender água
+- Fazer marketing do negócio
+- Verificar viabilidade/rentabilidade do negócio
 
 ## ~~Revendedor~~
 
@@ -43,8 +43,8 @@ Algumas atividades:
 - ~~Consulta os Revendedores~~
 - ~~Solicita pedidos aos Revendedores~~
 - ~~Compra água on-line através da loja do Comerciante~~
-- Consulta os locais dos Pontos de Abastecimento
-- Retira água diretamente nos Pontos de Abastecimento
+- [Consulta os locais dos Pontos de Abastecimento](features/comerciante/ponto_de_abastecimento.feature)
+- [Retira água diretamente nos Pontos de Abastecimento](features/comerciante/autoservico.feature)
 - [Compra crédito através de transferência bancária](features/comerciante/credito_venda_trasacao_presencial.feature)
 
 ## Fornecedor

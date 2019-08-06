@@ -1,4 +1,4 @@
-# – FILE: features/comerciante/loja.feature # language: pt
+# – FILE: features/comerciante/credito_venda_trasacao_presencial.feature # language: pt
 Funcionalidade: Concessão de crédito
 
 Para vender para consumidores que não possuem conta bancária
