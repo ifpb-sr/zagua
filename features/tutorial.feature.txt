@@ -1,0 +1,10 @@
+# – FILE: features/tutorial.feature # language: fr
+
+
+Funcionalidade: showing off behave
+
+Cenário: run a simple test
+Dado we have behave installed
+Quando we implement a test
+Então behave will test it for us!
+E To somwthing

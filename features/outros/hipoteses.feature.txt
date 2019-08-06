@@ -1,0 +1,45 @@
+# – FILE: features/negocio/founder.feature # language: pt
+
+Nós acreditamos o maior consumo da água será através dos Revendedores
+que os Consumidores irão preferir utilizar os
+
+
+We believe <this capability>
+What functionality we will develop to test our hypothesis? By defining a ‘test’ capability of the product or service that we are attempting to build, we identify the functionality and hypothesis we want to test.
+
+Will result in <this outcome>
+What is the expected outcome of our experiment? What is the specific result we expect to achieve by building the ‘test’ capability?
+
+We will have confidence to proceed when <we see a measurable signal>
+
+- Como descobrir se o negócio é viável para o Fornecedor?
+- Como tornar o negócio viável?
+
+- Revendedores mais satisfeitos
+- Fornecedores irão vender mais
+- Revendedores irão vender mais
+- Consumidores mais satisfeitos
+- Aumento de Consumidores novos
+- Aumento de Revendedores
+- Quantidade de acesso ao link "Como torna-se um Fornecedor"
+- Quantidade de acesso ao link "Seja um Revendedor"
+- Quantidade de acesso à página a "Origem e Qualidade da água" do Fornecedor
+- Quantidade de acesso à página do Fornecedor
+- Quantos consumidores compram novamente?
+- Quantos consumidores deixaram de comprar?
+- Quais as principais razões dos Consumidores utilizarem os Revendedores?
+- Quais as principais razões dos Consumidores utilizarem os Revendedores?
+- Quais as razões pelas quais os consumidores deixaram de comprar?
+- Quantos Consumidores compram sozinho VS utilizam Revendedores?
+- Como os Consumidores conheceram os Revendedores?
+
+- Como descobrir se o negócio é viável para o Zágua?
+- Quanto tempo o Fornecedor acessa o sistema por mês?
+- Quais as necessidades do Fornecedor?
+- Onde é o melhor local para deixar a caixa? Próximo a surpermecado? Principal?
+
+Preço único de entrega ajuda? ou atrapalha?
+- Variar o preço da água ou entrega?
+
+- Vender a vista
+- Vender a carteira
