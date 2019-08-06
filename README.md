@@ -45,6 +45,7 @@ Algumas atividades:
 - ~~Compra água on-line através da loja do Comerciante~~
 - Consulta os locais dos Pontos de Abastecimento
 - Retira água diretamente nos Pontos de Abastecimento
+- [Compra crédito através de transferência bancária](features/comerciante/credito_venda_trasacao_presencial.feature)
 
 ## Fornecedor
 
