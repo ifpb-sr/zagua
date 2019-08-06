@@ -5,14 +5,6 @@ Para não dividir meus rendimentos com operadoras de cartão de crédito
 Como um Comerciante
 Eu quero vender os créditos através de transferência bancária e concedê-los para meus clientes
 
-Ana Maria (uma cliente que eu desconheço) através da minha loja, acessa
-opção de comprar crédito, informa quanto crédito deseja comprar, verifica
-minhas contas corrente,  transfere o dinheiro referente ao crédito para
-uma delas e me envia o comprovante pelo WhatsApp. Quando eu entro no sistema,
-confirmo o recebimento do pagamento e o valor é automaticamente créditado
-para a conta de Ana Maria.
-
-
 Cenário de Fundo:
   Dado um comerciante chamando "Joerbson"
   E sua loja:

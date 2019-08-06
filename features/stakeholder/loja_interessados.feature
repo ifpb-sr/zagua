@@ -2,7 +2,7 @@
 Funcionalidade: Saber quem tem interesse em abrir uma loja
 
 Para que eu possa vender o equipamento do zágua
-Como administrado do zágua
+Como um Stakeholder do zágua
 Eu quero saber quem tem interesse em adquirir o equipamento
 
 Regra: Cadastramos todos que tem interesse em adquirir os equipamentos
