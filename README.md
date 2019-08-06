@@ -21,22 +21,18 @@ Algumas atividades:
 - Fazer marketing do negócio.
 - Verificar viabilidade/rentabilidade do negócio.
 
-### Cliente
+## ~~Revendedor~~
 
-Do ponto de vista do zágua, os Consumidores são seus Clientes.
-
-## Revendedor
-
-O Revendedor vende e entrega água para seus clientes.
+~~O Revendedor vende e entrega água para seus clientes~~.
 
 Algumas atividades:
 
-- Gerencia os pedidos de compras de sua lista de Consumidores
-- Compra água on-line através da loja do Comerciante
-- Consulta os locais dos Pontos de Abastecimento
-- Retira água nos Pontos de Abastecimento e realiza as entregas
-- Consulta os Fornecedores
-- Verificar rentabilidade do seu trabalho.
+- ~~Gerencia os pedidos de compras de sua lista de Consumidores~~
+- ~~Compra água on-line através da loja do Comerciante~~
+- ~~Consulta os locais dos Pontos de Abastecimento~~
+- ~~Retira água nos Pontos de Abastecimento e realiza as entregas~~
+- ~~Consulta os Fornecedores~~
+- ~~Verificar rentabilidade do seu trabalho.~~
 
 ## Consumidor
 
@@ -44,9 +40,9 @@ São os indivíduos que compram água para suas residências ou estabelecimentos
 
 Algumas atividades:
 
-- Consulta os Revendedores
-- Solicita pedidos aos Revendedores
-- Compra água on-line através da loja do Comerciante
+- ~~Consulta os Revendedores~~
+- ~~Solicita pedidos aos Revendedores~~
+- ~~Compra água on-line através da loja do Comerciante~~
 - Consulta os locais dos Pontos de Abastecimento
 - Retira água diretamente nos Pontos de Abastecimento
 
