@@ -1,9 +1,9 @@
 # – FILE: features/comerciante/loja.feature # language: pt
-Funcionalidade: Cadastro de pontos de abastecimento
+Funcionalidade: Nível e abastecimento dos pontos de abastecimento
 
-Para que meus consumidores possam saber o preço da água e aonde retirar água
+Para que meus consumidores possam se servirem de água sem minha intervenção
 Como um Comerciante
-Eu quero poder ter pontos de abastecimentos cadastrados e acessíveis
+Eu quero meus consumidores se autoservindo em meus pontos de abastecimento
 
 Cenário de Fundo:
   Dado um comerciante chamando "Joerbson"
@@ -11,10 +11,8 @@ Cenário de Fundo:
   |Nome    |Subdomínio|Telefone    |
   |Puro H2O|puroh2o   |8398888-8889|
   E com os seguintes pontos de abastecimentos:
-  |Capacidade|Valor|Cidade         |Estado|Endereço                 |Ponto de Referência                   |
-  |5000      |2.50 |Junco do Seridó|PB    |Rua Severino Coelho, 141 |Por trás da rua da Igreja Santo Onofre|
-  |1000      |2.60 |Junco do Seridó|PB    |R. Miguel A Nóbrega, 65  |Na rua da panificadora Dantas         |
-  |2000      |2.75 |Salgadinho     |PB    |R. Pedro Leite C.Melo, 64|Na rua da Farmácia do Lino            |
+  |Capacidade|Valor|Cidade         |Estado|Endereço                |
+  |5000      |2.50 |Junco do Seridó|PB    |Rua Severino Coelho, 141|
 
 Regra: O valor refere-se a quantidade de 20 litros de água
 Regra: Atualmente os pontos de abastecimento serão criados pelo Suporte

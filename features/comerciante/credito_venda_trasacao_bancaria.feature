@@ -22,6 +22,7 @@ Cenário de Fundo:
   |Caixa | 50.00|2019/8/3 11:45      |Não Conferido            |                         |
   |Caixa |100.00|2019/8/2 09:13      |Conferido e creditado    |                         |
   |Brasil| 50.00|2019/8/1 08:20      |Conferido e não creditado|Não encontrei o pagamento|
+  E com 3 reais de crédito na loja
 
 Regra: O cadastro das informações bancárias são realizadas pelo suporte
 

@@ -16,7 +16,7 @@ Cenário de Fundo:
   E uma consumidora cadastrada:
   |Nome     |Telefone   |Senha   |E-mail            |
   |Ana Maria|83987654321|Senh@123|anamaria@gmail.com|
-  E com crédito na loja de "1"
+  E com 3 reais de crédito na loja
 
 Regra: Consumidor pode acessar as informações de compra de crédito
 
