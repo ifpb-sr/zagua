@@ -8,6 +8,7 @@ verify_ssl = true
 [packages]
 behave = {git = "https://github.com/behave/behave"}
 flask = "*"
+flask-sqlalchemy = "*"
 
 [requires]
 python_version = "3.5"
