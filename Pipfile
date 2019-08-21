@@ -4,11 +4,14 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+behave = {git = "https://github.com/behave/behave"}
 
 [packages]
-behave = {git = "https://github.com/behave/behave"}
 flask = "*"
+flask-bootstrap = "*"
+flask-wtf = "*"
 flask-sqlalchemy = "*"
+flask-migrate = "*"
 
 [requires]
 python_version = "3.5"
