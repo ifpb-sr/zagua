@@ -18,7 +18,7 @@ Regra: Atualmente as lojas serão criadas pela equipe de Suporte
 
 Regra: A loja fica acessível publicamente através do subdomain
 
-  Cenário: Usuário não logando acessando loja
+  Exemplo: Usuário não logado acessando loja
     Quando acessar a página da loja através do seu subdomínio
     Então os dados públicos da loja estarão acessíveis
 

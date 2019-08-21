@@ -27,6 +27,7 @@ Cenário de Fundo:
 Regra: O cadastro das informações bancárias são realizadas pelo suporte
 
 Regra: Consumidor pode acessar as informações bancárias do comerciante
+
   Exemplo: Consumidor acessando página das informações bancárias
   Dado consumidora está logada
   Quando escolher opções de comprar crédito da loja
@@ -64,3 +65,8 @@ Regra: Comerciante confere os pagamentos cadastrados
     E informar que não concedeu o crédito com uma mensagem "Não encontrei pagamento"
     Então veremos que o status do pagamento do crédito mudou para "Conferido e não creditado"
     E o crédito da consumidora permaneceu o mesmo
+
+Regra: Somente o comerciante pode conceder os créditos conferidos
+    Dado consumidora está logada
+    Quando consultar os pagamentos bancários cadastrados
+    Então verá mensagem indicando que não tem permissão

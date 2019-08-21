@@ -3,7 +3,7 @@ Funcionalidade: Autoserviço nos pontos de abastecimento
 
 Para que meus consumidores possam se servirem de água sem minha intervenção
 Como um Comerciante
-Eu quero consumidores possam se servir de água sozinhos
+Eu quero que os consumidores possam se servir de água sozinhos
 
 Cenário de Fundo:
   Dado um comerciante chamando "Joerbson"
@@ -21,17 +21,17 @@ Cenário de Fundo:
 Regra: Os créditos do consumidor são consumidos de acordo com a quatidade utilizada
 
   @equipamento_libera
-  Esquema do Cenário: retirando quantidade de crédito suficiente
+  Esquema do Cenário: retirando quantidade com crédito suficiente
   Dado consumidor está logado
   Quando solicitar liberar <volume> litros de água no <Posto de Abastecimento>
-  Então sinal para liberação da água é enviado
+  Então um sinal para liberação da água será enviado
   E estamos aguardando a liberação da água
   Quando notificação da liberação da água for recebida
   E consumidor acessar os seus créditos
-  Então verá que seus créditos passou a ser <credito_final>
+  Então verá que seus créditos passou a ser <credito_restante>
 
   Exemplos:
-  |Volume|Posto de Abastecimento|credito_final|
+  |Volume|Posto de Abastecimento|credito_restante|
   |20    |Junco do Seridó       |3.0          |
   |50    |Junco do Seridó       |0.0          |
 
@@ -57,9 +57,9 @@ Regra: Com crédito insuficiente não pode solicitar liberação
     Dado consumidor está logado
     Quando solicitar liberar <volume> litros de água no <Posto de Abastecimento>
     Então verá mensagem indicando que precisa comprar mais crédito
-    E verá que seus créditos são <credito_final>
+    E verá que seus créditos são <credito_restante>
 
     Exemplos:
-    |Volume|Posto de Abastecimento|credito_final|
+    |Volume|Posto de Abastecimento|credito_restante|
     |60    |Junco do Seridó       |5.0          |
     |100   |Junco do Seridó       |5.0          |
