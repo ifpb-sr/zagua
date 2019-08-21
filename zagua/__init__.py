@@ -1,9 +1,12 @@
 import os
 from flask import Flask
 
-
+# Configuração baseado em:
+# https://flask.palletsprojects.com/en/1.1.x/tutorial/factory/
 def create_app(test_config=None):
     # create and configure the app
+    # Existem outras alternativas para configuração:
+    # https://flask.palletsprojects.com/en/1.1.x/config/
     app = Flask(__name__, instance_relative_config=True)
     app.config.from_mapping(
         SECRET_KEY='dev',
