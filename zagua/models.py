@@ -7,6 +7,7 @@ db = SQLAlchemy()
 class Usuario(db.Model):
     __tablename__ = 'usuarios'
     id = db.Column(db.Integer, primary_key=True)
-    senha = db.Column(db.String(64))
+    username = db.Column(db.String(50), primary_key=True)
+    senha = db.Column(db.String(64), unique = True)
     def __repr__(self):
-        return '<User %r>' % self.email
+        return '<id: %r, username: %r, senha: %r>' % self.id, self.username, self.senha

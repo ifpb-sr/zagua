@@ -1,4 +1,4 @@
-# – FILE: features/comerciante/loja.feature # language: pt
+# – FILE: features/usuario_cadastro.feature # language: pt
 Funcionalidade: Cadastro de usuário
 
 Para que eu possa acessar o sistema
