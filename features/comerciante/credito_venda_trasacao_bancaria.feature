@@ -1,5 +1,5 @@
 # – FILE: features/comerciante/credito_venda_trasacao_bancaria.feature # language: pt
-Funcionalidade: Concessão de crédito
+Funcionalidade: Concessão de crédito através de transferência bancária
 
 Para não dividir meus rendimentos com operadoras de cartão de crédito
 Como um Comerciante
