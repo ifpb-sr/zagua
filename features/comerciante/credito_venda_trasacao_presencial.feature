@@ -1,5 +1,5 @@
 # – FILE: features/comerciante/credito_venda_trasacao_presencial.feature # language: pt
-Funcionalidade: Concessão de crédito
+Funcionalidade: Concessão de crédito presencial
 
 Para vender para consumidores que não possuem conta bancária
 Como um Comerciante
