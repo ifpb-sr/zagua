@@ -60,3 +60,17 @@ Algumas atividades:
 ## Suporte
 
 O Suporte é a equipe que fornece suporte ao Comerciante. Para agilizar a experimentação da solução alguns requisitos são implementados pelo suporte, quem realizam as alterações no Banco de Dados diretamente.
+
+
+# Como executar a aplicação
+
+```
+git clone https://github.com/ifpb-sr/zagua
+cd zagua
+pip install pipenv --user
+pipenv shell
+pipenv install
+cp .env.exemplo .env
+source .env
+flask run -p 8080
+```
