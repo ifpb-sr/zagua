@@ -14,7 +14,7 @@ O Comerciante irá vender água diretamente aos Consumidores ou através de Reve
 
 Algumas atividades:
 
-- [Manter loja on-line venda da água](features/comerciante/loja.feature)
+- [Manter loja on-line venda da água](features/comerciante/loja.feature) [karla e sayonara]
 - [Criar Pontos de Abastecimento de água](features/comerciante/ponto_de_abastecimento.feature)
 - Vende crédito [presencialmente](features/comerciante/credito_venda_trasacao_presencial.feature) ou [por transação bancária](features/comerciante/credito_venda_trasacao_bancaria.feature)
 - Manter o abastecimento de água
