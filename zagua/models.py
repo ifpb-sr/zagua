@@ -12,7 +12,7 @@ class Usuario(db.Model):
 
 
     def __repr__(self):
-        return '<Usuario %r>' self.username
+        return '<Usuario %r>' %self.username
 
 class Loja(db.Model):
     __tablename__ = 'lojas'
@@ -22,5 +22,5 @@ class Loja(db.Model):
 
 
     def __repr__(self):
-        return 'Loja %r' self.name
+        return 'Loja %r' %self.name
 
