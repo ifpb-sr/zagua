@@ -8,10 +8,11 @@ exemptLabels:
 # Label to use when marking an issue as stale
 staleLabel: wontfix
 # Comment to post when marking an issue as stale. Set to `false` to disable
-markComment: >
+markComment: |
   [Este issue](https://guides.github.com/features/issues/) foi marcado 
   automaticamente como **Caducando** porque não teve atividade recentemente. 
   Ele será fechado se não ocorrer mais atividades:
+
   - Escrevam comentários relevantes sobre o trabalho que precisa ser feito
   - Informem o progresso das atividades
   - [Referenciem o issue da estória que estiver trabalhando](https://guides.github.com/features/issues/#notifications)
