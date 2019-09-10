@@ -9,8 +9,14 @@ exemptLabels:
 staleLabel: wontfix
 # Comment to post when marking an issue as stale. Set to `false` to disable
 markComment: >
-  Este issue foi marcado automaticamente como caduco porque não teve
-  atividade recentemente. Ele será fechado se não ocorrer mais atividades.
-  Obrigado por sua contribuição.
+  [Este issue](https://guides.github.com/features/issues/) foi marcado 
+  automaticamente como **Caducando** porque não teve atividade recentemente. 
+  Ele será fechado se não ocorrer mais atividades:
+  - Escrevam comentários relevantes sobre o trabalho que precisa ser feito
+  - Informem o progresso das atividades
+  - [Referenciem o issue da estória que estiver trabalhando](https://guides.github.com/features/issues/#notifications)
+  - [Notifiquem o time ou colegas sobre eventos importantes](https://guides.github.com/features/issues/#notifications).
+  - [Apliquem os labels apropriados](https://guides.github.com/features/issues/#filtering)
+  - [Veja o que mais pode ser feito com issues...](https://help.github.com/en/articles/about-issues)
 # Comment to post when closing a stale issue. Set to `false` to disable
 closeComment: false
