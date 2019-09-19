@@ -1,11 +1,11 @@
-from flask import Flask, Blueprint, render_template
+'''from flask import Flask, Blueprint, render_template
 from zagua import db
 from . import bp
 
 #app = Flask(__name__)
 #app.register_blueprint(bp)
 
-'''@bp.route('/user')
+@bp.route('/user')
 def usuario():
     return "<h1>aqui vai ta o codigo html</h1>"
 
