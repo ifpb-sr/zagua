@@ -6,6 +6,8 @@ __pycache__/
 # C extensions
 *.so
 
+*.db
+
 # Distribution / packaging
 .Python
 build/
@@ -116,4 +118,3 @@ htmlcov/
 dist/
 build/
 *.egg-info/
-
