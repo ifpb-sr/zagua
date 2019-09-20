@@ -7,6 +7,8 @@ from wtforms.validators import DataRequired, NumberRange
 from wtforms.widgets.html5 import NumberInput
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate, upgrade
+from zagua.database import db_session
+
 # import pdb
 # pdb.set_trace()
 
@@ -26,3 +28,10 @@ db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
 from .views import user
+
+from .models import db
+db.init_app(app)
+
+#@app.teardown_appcontext
+#def shutdown_session(exception=None):
+#    db_session.remove()
