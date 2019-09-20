@@ -25,4 +25,4 @@ bootstrap = Bootstrap(app)
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 
-from . import views
+from .views import user

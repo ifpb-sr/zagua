@@ -1,8 +1,9 @@
 from zagua import app
+from flask import Flask, render_template
 
 @app.route('/users/novo')
 def novo():
-    return render_template('users/novo.html')
+    return render_template('usuarios/novo.html')
 
 @app.route('/users/listar')
 def listar():
