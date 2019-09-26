@@ -76,3 +76,7 @@ flask run -p 8080
 ```
 
 **NOTE**: Se estiver executando no laboratório e deu erro, tente abrir o arquivo Pipfile e alterar a versão do python para a versão o seu computador.
+
+# Para criar as caixas
+
+Consultar esse site: https://getbootstrap.com/docs/4.3/components/
