@@ -74,3 +74,5 @@ cp .env.exemplo .env
 source .env
 flask run -p 8080
 ```
+
+**NOTE**: Se estiver executando no laboratório e deu erro, tente abrir o arquivo Pipfile e alterar a versão do python para a versão o seu computador.
