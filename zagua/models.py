@@ -10,7 +10,13 @@ class Usuario(Base):
     id = db.Column(db.Integer, primary_key=True)
     #username = db.Column(db.String(50), primary_key=True, index=True)
     username = db.Column(db.String(50), unique=True)
-    senha = db.Column(db.String(64), unique=True)
+    telefone = db.Column(db.String(11))
+    email = db.Column (db.String(100))
+    senha = db.Column(db.String(64))
+    #Cidade
+    #Estado
+    #Endereço
+    #Ponto de Referência  
 
     def __init__ (self, username=None, senha=None):
         self.username = username
