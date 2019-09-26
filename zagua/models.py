@@ -10,13 +10,13 @@ class Usuario(Base):
     id = db.Column(db.Integer, primary_key=True)
     #username = db.Column(db.String(50), primary_key=True, index=True)
     username = db.Column(db.String(50), unique=True)
-    telefone = db.Column(db.String(11))
-    email = db.Column (db.String(100))
-    senha = db.Column(db.String(64))
-    #Cidade
-    #Estado
-    #Endereço
-    #Ponto de Referência  
+    telefone = db.Column(db.String(11), unique=True)
+    email = db.Column (db.String(100), unique=True)
+    senha = db.Column(db.String(16))
+    cidade = db.Column(100)
+    estado = db.Column(100)
+    endereço = db.Column(150)
+    pontoReferencia = 
 
     def __init__ (self, username=None, senha=None):
         self.username = username
