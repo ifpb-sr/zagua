@@ -13,14 +13,20 @@ class Usuario(Base):
     telefone = db.Column(db.String(11), unique=True)
     email = db.Column (db.String(100), unique=True)
     senha = db.Column(db.String(16))
-    cidade = db.Column(100)
-    estado = db.Column(100)
-    endereço = db.Column(150)
-    pontoReferencia = 
+    cidade = db.Column(db.String(100))
+    estado = db.Column(db.String(100))
+    endereço = db.Column(db.String(150))
+    pontoReferencia = db.Column(db.String(100))
 
-    def __init__ (self, username=None, senha=None):
+    def __init__ (self, username, senha, telefone, email, cidade, estado, endereco, pontoReferencia):
         self.username = username
         self.senha = senha
+        '''self.telefone = 
+        self.email = 
+        self.cidade = 
+        self.estado = 
+        self.endereço = 
+        self.pontoReferencia = '''
 
     def __repr__(self):
         return '<Usuario %r>' %self.username
