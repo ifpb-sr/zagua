@@ -3,33 +3,27 @@
 
 {% block title %}{{ super() }} - Login{% endblock %}
 
-{% block head %}
-<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/login.css') }}" />
-
+{% block head_files %}
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='login.css') }}" />
 {% endblock %}
 
 {% block page_content %}
+<div id="login-box">
+    <div id="login-box-interno">
+        <div id="login-box-label">Faça seu Login</div>
+        <div class="input-div" id="input-user">
+            <input type="text" placeholder="Email"/>
+        </div>
 
-<body>
-    <div id="login-box">
-        <div id="login-box-interno">
-            <div id="login-box-label">Faça seu Login</div>
-            <div class="input-div" id="input-user">
-                <input type="text" placeholder="Email"/>
-            </div>
+        <div class="input-div" id="input-senha">
+            <input type="password" placeholder="Senha"/>
+        </div>
 
-            <div class="input-div" id="input-senha">
-                <input type="password" placeholder="Senha"/>
-            </div>
-
-            <div id="botoes">
-                <div id="botao">Login</div>
-                <div id="lembrar-senha">
-                    <input type="checkbox"/>lembrar de mim</div>
-            </div>
+        <div id="botoes">
+            <div id="botao">Login</div>
+            <div id="lembrar-senha">
+                <input type="checkbox"/>lembrar de mim</div>
         </div>
     </div>
-</body>
-    
-
+</div>
 {% endblock%}

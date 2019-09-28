@@ -1,6 +1,5 @@
 body{
     background-color: #11a6d4;
-
 }
 #login-box{
     background-color: #1992b7;
@@ -83,11 +82,11 @@ body{
     border: 1px solid #9eb9c3 ;
     color: white;
     box-shadow: 0 0 10px #c9c9c9;
-    
-    
+
+
 }
 #botao:hover{
     background: #184d5e;
     cursor:pointer;
-    
+
 }
