@@ -1,0 +1,93 @@
+body{
+    background-color: #11a6d4;
+
+}
+#login-box{
+    background-color: #1992b7;
+    width: 380px ;
+    height: 260px ;
+    margin: 140px auto 0;
+    border-radius: 5px;
+}
+
+#login-box-interno{
+    width: 360px;
+    height: 240px;
+    background-color: #fdfdfd;
+    position: absolute;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+    overflow: hidden;
+}
+#login-box-label{
+    height: 45px;
+    text-align: center;
+
+    font: bold 14px/45px sans-serif ;
+
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+    background: #eeeeee; /* Old browsers */
+    background: -moz-linear-gradient(top,  #eeeeee 0%, #cccccc 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #eeeeee 0%,#cccccc 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #eeeeee 0%,#cccccc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+
+    border-bottom: 1 solid #bfc3c5;
+    box-shadow: 1px 0 3px #dedede;
+}
+
+.input-div{
+    margin: 20px;
+    padding: 5px;
+    background-color: #f2f5f7;
+    border-radius: 3px;
+}
+.input-div input{
+    width: 310px;
+    height: 35px;
+    padding-left: 5px;
+    font: normal 13px sans-serif;
+    color: #aeaeae;
+    border-radius: 3px;
+    border: 1px solid #bfc4c6;
+    outline: none;
+}
+.input-div:hover{
+
+    background-color: #e0f1fc;
+}
+.input-div:hover input{
+    border-color: #7dc6dd;
+    border: 5px;
+}
+#input-senha{
+    margin-top: -10px;
+}
+#botoes{
+    width: 310px;
+    margin-left: 25px;
+
+}
+#botao{
+
+    float: right;
+    background-color: #14708b;
+    padding: 5px 15px;
+    font: bold 12px sans-serif;
+    border-radius: 20px;
+    text-shadow: 0 1px 0 white;
+    border: 1px solid #9eb9c3 ;
+    color: white;
+    box-shadow: 0 0 10px #c9c9c9;
+    
+    
+}
+#botao:hover{
+    background: #184d5e;
+    cursor:pointer;
+    
+}
