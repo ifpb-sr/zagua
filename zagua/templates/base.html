@@ -43,7 +43,7 @@
                   <a class="nav-link" href="#">Suporte</a>
               </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0 " id="bts">
+          <form class="form-inline my-2 my-lg-0 " id="bts"> <!--bts == buttons-->
               <a href="#" class="btn btn-dark btn-sm active mr-2" role="button" aria-pressed="true">Sign In</a>
               <a href="#" class="btn btn-primary  active" role="button" aria-pressed="true">Sign Up</a>
           </form>
@@ -52,15 +52,12 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container">
-        {% block page_content %}
-            <body> 
-
-
-            </body>
-        
-        {% endblock %}
-    </div>
+    <body>
+        <div class="container">
+            {% block page_content %}
+            {% endblock %}
+        </div>
+    </body>
 {% endblock %}
 
 
