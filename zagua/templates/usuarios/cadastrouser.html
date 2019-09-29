@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}{{ super() }} - Cadastro do Usuário{% endblock %}
+
+{% block head_files %} 
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='cadastrouser.css') }}"/>
+{% endblock %}
+
+{% block page_content %}
+
+<div class="form" id="C-box">
+    <div id="C-box-interno">
+        <div id="C-box-label" >Crie seu Cadastro</div>
+        <div class="input-div" id="input-nome">
+            <input type="text" placeholder="Nome Completo"/>
+        </div>
+        <div class="input-div" id="input-telefone">
+                <input type="number" placeholder="Telefone"/>
+            </div>
+        <div class="input-div" id="input-email">
+                <input type="text" placeholder="Email"/>
+            </div>
+        <div class="input-div" id="input-endereço">
+                <input type="text" placeholder="Endereço"/>
+            </div>
+        <div class="input-div" id="input-estado">
+            <select id="input-div input" class="form-control">
+                <option selected>Estado</option>
+                <option>Paraíba</option>
+                <option>Pernambuco</option>
+                <option>Bahia</option>
+                <option>São Paulo</option>
+                <option>Rio de Janeiro</option>
+                <option>Maranhão</option>
+                <option>Brasilia</option>
+                <option>Rio Grande do Norte</option>
+                <option>Minas Gerais</option>
+            </select>
+        </div>
+        <div class="input-div" id="input-cidade">
+                <input type="text" placeholder="Cidade"/>
+            </div>
+        <div class="input-div" id="input-pdr">
+                <input type="text" placeholder="Ponto de Referência"/>
+            </div>
+        
+        <div class="input-div" id="input-senha">
+            <input type="password" placeholder="Senha"/>
+        </div>
+
+        <div id="botoes">
+            <div id="botao">Cadastrar</div>
+
+            <div id="lembrar-senha">
+                <input type="checkbox"/>Confirmar Informações</div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

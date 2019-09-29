@@ -20,3 +20,7 @@ def apagar():
 @app.route('/users/login')
 def login():
     return render_template("/login/login.html")
+
+@app.route('/users/cadastrouser')
+def cadastrouser():
+    return render_template("/usuarios/cadastrouser.html")
