@@ -24,3 +24,7 @@ def login():
 @app.route('/users/cadastrouser')
 def cadastrouser():
     return render_template("/usuarios/cadastrouser.html")
+
+@app.route('/users/venda')
+def venda():
+    return render_template("/Venda/venda.html")

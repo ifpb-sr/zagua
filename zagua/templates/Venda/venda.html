@@ -1,0 +1,27 @@
+{% extend "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title%}{{ super () }} - Venda {% endblock %}
+
+{% block head_files %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='venda.css') }}" />
+<script rel="script" type="text/javascript" href="{{ url_for('static', filename='venda.js') }}" ></script>
+{% endblock %}
+
+
+{% block page_content %}
+
+<div  class="form" id="login-box">
+  <div id="login-box-interno">
+      <div id="login-box-label">Faça seu Login</div>
+      <img src="https://aguamineralhydrate.com.br/wp-content/uploads/2016/02/Galao-Agua-Mineral-20-litros-sem-gas.jpg" alt="img1" id="imgvenda" >
+  </div>
+</div>
+<div class="Ra">
+  <span id="rangeValue">0</span>
+  <input type="range" class="range" name="" value="20" min="20" max="100" onmousemove="rangeSlider(this.value)" onchange="rangeSlider(this.value)"/>
+</div>
+
+
+
+{% endblock %}

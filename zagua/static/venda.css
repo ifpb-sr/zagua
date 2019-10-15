@@ -1,0 +1,98 @@
+    body{
+        background-color: #1992b7 !important;
+    }
+    #login-box{
+        background-color: #1992b7;
+        width: 380px ;
+        height: 260px ;
+        margin: 140px auto 0;
+        border-radius: 5px;
+    }
+
+    #login-box-interno{
+        width: 360px;
+        height: 240px;
+        background-color: #fdfdfd;
+        position: absolute;
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 5px black;
+        overflow: hidden;
+    }
+    #login-box-label{
+        height: 45px;
+        text-align: center;
+
+        font: bold 14px/45px sans-serif ;
+
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a9e4f7+0,0fb4e7+100;Ble+3D+%235 */
+        background: #a9e4f7; /* Old browsers */
+        background: -moz-linear-gradient(top,  #a9e4f7 0%, #0fb4e7 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(top,  #a9e4f7 0%,#0fb4e7 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom,  #a9e4f7 0%,#0fb4e7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9e4f7', endColorstr='#0fb4e7',GradientType=0 ); /* IE6-9 */
+
+
+        border-bottom: 1 solid #bfc3c5;
+        box-shadow: 1px 0 3px #dedede;
+    }
+    #imgvenda{
+        width: 100px;
+        height: 120px ;
+        margin: 30px 130px;
+
+    }
+    .Ra{
+        margin: -350px;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+
+    }
+
+    div{
+        position: relative;
+
+    }
+    #rangeValue{
+
+        box-sizing: border-box;
+        position: relative;
+        top: 0;
+        background: #fff;
+        right: 10px;
+        padding: 2;
+        text-align: center;
+        width: 50px: 
+    }
+    #rangeValue.before{
+        content:'';
+        position: relative;
+        top:50%;
+        transform: translateY(-50%) rotate(45deg);
+        left:-5px;
+        width: 10px;
+        height: 10px;
+        background: #fff; 
+    }
+    .range{
+        width: 200px;
+        height: 2px;
+        background: #111;
+        -webkit-appearance: none;
+        outline:none;
+        border-radius: 2px;
+    }
+    .range::-webkit-slider-thumb{
+        -webkit-appearance: none;
+        width:20px ;
+        height: 20px;
+        border-radius: 50%;
+        background: #00bcd4;
+
+    }
