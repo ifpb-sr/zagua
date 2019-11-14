@@ -11,7 +11,7 @@ class Comerciante(Base):
     senha = db.Column(db.String(16))
     nome = db.Column(db.String(64))
 
-    telefones = db.relationship('Telefone', backref='comerciantes')
+    telefones = db.relationship('TelefoneComerciante', backref='comerciantes')
 
     def __init__ (self, email, senha, nome):
         self.email = email
@@ -22,8 +22,8 @@ class Comerciante(Base):
     def __repr__(self):
         return '<Comerciante: %r>' %self.nome
 
-class Telefone(Base):
-    __tablename__ = 'telefones'
+class TelefoneComerciante(Base):
+    __tablename__ = 'telefonesCormerciantes'
     telefone = db.Column(db.String(11), unique=True, primary_key=True)
 
     comerciante = db.Column(db.String(100), db.ForeignKey('comerciantes.email'))
@@ -64,6 +64,36 @@ class TelefoneLoja(Base):
 
     def __repr__(self):
         return 'Telefone: %r da loja %s' % (self.telefone, self.loja_id)
+    
+class Cliente(Base):
+    __tablename__ = 'clientes'
+    email = db.Column(db.String(100), unique=True, primary_key=True)
+    senha = db.Column(db.String(16))
+    nome = db.Column(db.String(64))
+
+    telefones = db.relationship('TelefoneCliente', backref='clientes')
+
+    def __init__ (self, email, senha, nome):
+        self.email = email
+        self.senha = senha
+        self.nome = nome
+
+    def __repr__(self):
+        return '<Cliente: %r>' %self.nome
+    
+class TelefoneCliente(Base):
+    __tablename__ = 'telefonesClientes'
+    telefone = db.Column(db.String(11), unique=True, primary_key=True)
+
+    cliente = db.Column(db.String(100), db.ForeignKey('clientes.email'))
+
+    def __init__(self, telefone, cliente):
+        self.telefone = telefone
+        self.cliente = cliente
+
+    def __repr__(self):
+        return 'Telefone: %r do cliente %r' % (self.telefone, self.cliente)
+
 '''
 from zagua.database import init_db
 init_db()
