@@ -3,7 +3,7 @@
 
 - revendedor
    - nome do revendedor
-   - telefone do revende3dor
+   - telefone do revendedor
    - preço da entrega
    - preço do galão
 
