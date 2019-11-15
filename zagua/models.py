@@ -64,7 +64,41 @@ class TelefoneLoja(Base):
 
     def __repr__(self):
         return 'Telefone: %r da loja %s' % (self.telefone, self.loja_id)
-    
+
+class PontoAbastecimento(Base):
+    """Entidade Ponto de Abastecimento:
+        relacionamento: 1,n com loja
+        capacidade,valor
+        endereço: atributo composto
+            pontoReferencia,cidade,estado,bairro,numero,logradouro
+        PK: id
+    """
+    id = db.Column(db.Integer, primary_key=True)
+    capacidade = db.Column(db.Integer)
+    valor = db.Column(db.Float)
+
+    pontoReferencia = db.Column(db.String(100), index=True)
+    cidade = db.Column(db.String(100), index=True)
+    estado = db.Column(db.String(100), index=True)
+    bairro = db.Column(db.String(100), index=True)
+    numero = db.Column(db.String(100), index=True)
+    logradouro = db.Column(db.String(100), index=True)
+
+    def __init__(self, arg):
+        self.id = id
+        self.capacidade = capacidade
+        self.valor = valor
+
+        self.pontoReferencia = pontoReferencia
+        self.cidade = cidade
+        self.estado = estado
+        self.bairro = bairro
+        self.numero = numero
+        self.logradouro = logradouro
+
+    def __repr__(self):
+        return 'id do Ponto de Abastecimento %s' % (self.id)
+
 class Cliente(Base):
     __tablename__ = 'clientes'
     email = db.Column(db.String(100), unique=True, primary_key=True)
@@ -80,7 +114,7 @@ class Cliente(Base):
 
     def __repr__(self):
         return '<Cliente: %r>' %self.nome
-    
+
 class TelefoneCliente(Base):
     __tablename__ = 'telefonesClientes'
     telefone = db.Column(db.String(11), unique=True, primary_key=True)
