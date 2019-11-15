@@ -43,6 +43,7 @@ class Loja(Base):
     dono_email = db.Column(db.String(100), db.ForeignKey('comerciantes.email'))
 
     telefones = db.relationship('TelefoneLoja', backref='lojas')
+    pontosDeAbastecimentos = db.relationship('PontoAbastecimento', backref='lojas')
 
     def __init__(self, nome, subdominio, dono_email):
         self.nome = nome
@@ -73,6 +74,7 @@ class PontoAbastecimento(Base):
             pontoReferencia,cidade,estado,bairro,numero,logradouro
         PK: id
     """
+    __tablename__ = 'pontoAbastecimento'
     id = db.Column(db.Integer, primary_key=True)
     capacidade = db.Column(db.Integer)
     valor = db.Column(db.Float)
@@ -83,6 +85,8 @@ class PontoAbastecimento(Base):
     bairro = db.Column(db.String(100), index=True)
     numero = db.Column(db.String(100), index=True)
     logradouro = db.Column(db.String(100), index=True)
+
+    loja_id = db.Column(db.Integer, db.ForeignKey(lojas.id))
 
     def __init__(self, arg):
         self.id = id
