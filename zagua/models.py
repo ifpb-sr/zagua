@@ -10,6 +10,7 @@ class Comerciante(Base):
     email = db.Column(db.String(100), unique=True, primary_key=True)
     senha = db.Column(db.String(16))
     nome = db.Column(db.String(64))
+    #extend_existing=True
 
     telefones = db.relationship('TelefoneComerciante', backref='comerciantes')
 
@@ -42,8 +43,8 @@ class Loja(Base):
     subdominio = db.Column(db.String(100), unique=True)
     dono_email = db.Column(db.String(100), db.ForeignKey('comerciantes.email'))
 
-    telefones = db.relationship('TelefoneLoja', backref='lojas')
-    pontosDeAbastecimentos = db.relationship('PontoAbastecimento', backref='lojas')
+    telefones = db.relationship('TelefoneLoja', backref='lojas') ################
+    pontosDeAbastecimentos = db.relationship('PontoAbastecimento', backref='lojas')############
 
     def __init__(self, nome, subdominio, dono_email):
         self.nome = nome
@@ -86,9 +87,9 @@ class PontoAbastecimento(Base):
     numero = db.Column(db.String(100), index=True)
     logradouro = db.Column(db.String(100), index=True)
 
-    loja_id = db.Column(db.Integer, db.ForeignKey(lojas.id))
+    loja_id = db.Column(db.Integer, db.ForeignKey('lojas.id'))
 
-    def __init__(self, arg):
+    '''def __init__(self, arg):
         self.id = id
         self.capacidade = capacidade
         self.valor = valor
@@ -98,7 +99,7 @@ class PontoAbastecimento(Base):
         self.estado = estado
         self.bairro = bairro
         self.numero = numero
-        self.logradouro = logradouro
+        self.logradouro = logradouro'''
 
     def __repr__(self):
         return 'id do Ponto de Abastecimento %s' % (self.id)
