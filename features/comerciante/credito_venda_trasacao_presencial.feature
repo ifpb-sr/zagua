@@ -18,14 +18,6 @@ Cenário de Fundo:
   |Ana Maria|83987654321|Senh@123|anamaria@gmail.com|
   E com 3 reais de crédito na loja
 
-Regra: Consumidor pode acessar as informações de compra de crédito
-
-  Exemplo: Consumidor acessando página de informações de compra de crédito
-  Dado consumidora está logada
-  Quando escolher opções de comprar crédito da loja
-  Então verá que aceita pagamento presencialmente e as informações cadastradas
-
-
 Regra: O comerciante concede crédito na loja ao consumidor
 
 Esquema do Cenário: concendendo crédito presencial à consumidor
@@ -38,3 +30,10 @@ Esquema do Cenário: concendendo crédito presencial à consumidor
   |consumidor |valor|credito_final|
   |Ana Maria  |25   |28           |
   |83987654321|50   |53           |
+
+Regra: Consumidor pode acessar as informações de compra de crédito
+
+  Exemplo: Consumidor acessando página de informações de compra de crédito
+  Dado consumidora está logada
+  Quando escolher opções de comprar crédito da loja
+  Então verá que aceita pagamento presencialmente e as informações cadastradas
